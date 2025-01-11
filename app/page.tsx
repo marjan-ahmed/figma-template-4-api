@@ -53,7 +53,7 @@ export default async function Home() {
                     {/* CoreUI Rating Component */}
                     <CRating className="flex" value={product.rating || 0} readOnly />
                     <p className="text-gray-600 text-sm">
-                      {product.ratingCount ? `${product.ratingCount} reviews` : "No reviews"}
+                      {product.rating ? `${product.rating} reviews` : "No reviews"}
                     </p>
                   </div>
                 </div>
