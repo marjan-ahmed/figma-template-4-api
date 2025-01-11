@@ -111,7 +111,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736611722/product-7_aj2jyo.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613348/product-18_utcoji.png',
   },
   {
     id: 9,
@@ -209,7 +209,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613033/product-12_wy3fbi.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736614195/product-24_mhglka.png',
   },
   {
     id: 15,
@@ -223,7 +223,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613033/product-13_wy3fbi.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736614296/product-25_yppoja.png',
   },
   {
     id: 16,
@@ -257,20 +257,6 @@ const product = [
     id: 18,
     name: 'Executive Seat chair',
     description: 'null',
-    sku: null,
-    categories: ['trending products'],
-    price: null,
-    olderPrice: 32.00,
-    rating: null,
-    ratingCount: null,
-    colors: ['blue', 'red', 'green', 'blue'],
-    sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736618925/product-16_rnoqsv.png',
-  },
-  {
-    id: 19,
-    name: 'Executive Seat chair',
-    description: null,
     sku: null,
     categories: ['trending products'],
     price: null,
@@ -335,7 +321,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736618925/product-15_de6ssu.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736618925/product-17_ehrrm7.png',
   },
 ];
 
