@@ -46,12 +46,12 @@ export default async function Home() {
                 </div>
                 {/* Add Rating and Rating Count */}
                 <div className="mt-4">
-                  <p className="text-gray-800 font-semibold">
+                  <p className="flex justify-between text-gray-800 font-semibold">
                     Rating:
                   </p>
                   <div className="flex items-center gap-2">
                     {/* CoreUI Rating Component */}
-                    <CRating value={product.rating || 0} readOnly />
+                    <CRating className="flex" value={product.rating || 0} readOnly />
                     <p className="text-gray-600 text-sm">
                       {product.ratingCount ? `${product.ratingCount} reviews` : "No reviews"}
                     </p>

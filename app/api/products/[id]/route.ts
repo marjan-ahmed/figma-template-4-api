@@ -1,8 +1,9 @@
-import { product } from '../route';
-import { NextResponse } from 'next/server';
+// import { product } from '../route';
+import { product } from '../data';
+import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET( params : { params: { id: string } }) {
-    const productId = parseInt(params.params.id);
+export async function GET(req: NextRequest,{ params } : { params: { id: string } }) {
+    const productId = parseInt(params.id);
   
     const filterProduct = product.find((p) => p.id === productId);
   
