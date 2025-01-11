@@ -125,7 +125,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736611722/product-8_aj2jyo.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613452/product-19_hb4dsk.png',
   },
   {
     id: 10,
@@ -181,7 +181,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736611722/product-11_wy3fbi.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736614001/product-13_wy3fbi.png',
   },
   {
     id: 14,
@@ -195,7 +195,7 @@ const product = [
     ratingCount: null,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
-    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613033/product-5_mzt2c0.png',
+    image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736613452/product-19_hb4dsk.png',
   },
   {
     id: 15,
