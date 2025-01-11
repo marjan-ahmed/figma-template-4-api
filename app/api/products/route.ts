@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const product = [
+export const product = [
   {
     id: 1,
     name: 'Cantilever chair',
@@ -9,8 +9,8 @@ const product = [
     categories: ['featured products'],
     price: 53.00,
     olderPrice: null,
-    rating: null,
-    ratingCount: null,
+    rating: 5,
+    ratingCount: 88,
     colors: ['blue', 'red', 'green', 'blue'],
     sale: false,
     image: 'https://res.cloudinary.com/dqpct16iq/image/upload/v1736611722/product-1_i0v1dc.png',
