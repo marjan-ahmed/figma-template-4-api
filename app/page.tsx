@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CRating } from '@coreui/react-pro'; // Import the CRating component
+import { Rating } from "@smastrom/react-rating";
 
 interface IProduct {
   id: number;
@@ -50,8 +51,10 @@ export default async function Home() {
                     Rating:
                   </p>
                   <div className="flex items-center gap-2">
-                    {/* CoreUI Rating Component */}
-                    <CRating className="flex" value={product.rating || 0} readOnly />
+                    <Rating
+      style={{ maxWidth: 180 }}
+      value={Number(product.rating)}
+    />
                     <p className="text-gray-600 text-sm">
                       {product.rating ? `${product.rating} reviews` : "No reviews"}
                     </p>
